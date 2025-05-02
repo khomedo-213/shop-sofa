@@ -1,0 +1,55 @@
+/* admin_category.css */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+form.edit {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form.edit input[type="text"],
+form.edit textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form.edit textarea {
+    resize: vertical;
+    min-height: 500px;
+}
+
+form.edit .text-danger {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+form.edit button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.edit button:hover {
+    background-color: #0056b3;
+}
