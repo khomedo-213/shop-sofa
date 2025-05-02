@@ -1,0 +1,65 @@
+/* admin_invoice_edit_form.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.edit {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit div {
+    margin-bottom: 15px;
+}
+
+.edit label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.edit input, .edit select, .edit textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.edit textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.edit button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.edit button:hover {
+    background-color: #0056b3;
+}
+
+.text-danger {
+    color: red;
+    font-size: 14px;
+}

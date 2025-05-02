@@ -1,76 +1,66 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# 🚀 Quy trình làm việc với Git (Feature Branch Workflow)
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## 🔁 1. Cập nhật code mới nhất từ nhánh `main`
+## About Laravel
 
-```bash
-git checkout main
-git fetch
-git pull origin main
-```
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 🌱 2. Tạo nhánh mới cho tính năng đang làm
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-**Đặt tên theo cấu trúc:** `func/ten_chuc_nang`
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Ví dụ:
-```bash
-git checkout -b func/show_product
-```
+## Learning Laravel
 
-## 🛠️ 3. Viết code và commit
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-### Kiểm tra trạng thái file:
-```bash
-git status
-```
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-### Thêm tất cả thay đổi:
-```bash
-git add .
-```
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### Commit với nội dung ngắn gọn mô tả chức năng:
-```bash
-git commit -m "Thêm chức năng hiển thị sản phẩm"
-```
+## Laravel Sponsors
 
-## 🚀 4. Đẩy nhánh lên Git (đưa code lên repository)
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-```bash
-git push origin func/show_product
-```
+### Premium Partners
 
-## 🧹 5. Sau khi merge nhánh vào main (trên GitHub hoặc GitLab)
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-### Xóa nhánh local:
-```bash
-git branch -d func/show_product
-```
+## Contributing
 
-### Xóa nhánh remote (nếu cần):
-```bash
-git push origin --delete func/show_product
-```
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
----
+## Code of Conduct
 
-## 💡 Một số lệnh Git hữu ích
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-| Lệnh | Công dụng |
-|------|----------|
-| `git log --oneline` | Xem lịch sử commit ngắn gọn |
-| `git diff` | So sánh sự khác biệt trước khi commit |
-| `git stash` | Lưu tạm thay đổi chưa commit |
-| `git stash pop` | Khôi phục lại thay đổi đã stash |
-| `git branch` | Xem nhánh local |
-| `git branch -r` | Xem nhánh remote |
+## Security Vulnerabilities
 
----
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## 📝 Ghi chú
+## License
 
-- Luôn **checkout về `main`** và **pull code mới nhất** trước khi tạo nhánh mới.
-- Tên nhánh nên **ngắn gọn, rõ ràng**, tránh dùng dấu cách.
-- Mỗi nhánh nên làm **một tính năng hoặc sửa lỗi riêng biệt**.
-- Luôn **viết nội dung commit rõ ràng**, giúp người khác hiểu bạn làm gì.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
